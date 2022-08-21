@@ -1,54 +1,21 @@
-import {
-  Box,
-  Heading,
-  SlideFade,
-  Link,
-  LightMode,
-  Button,
-  ButtonGroup,
-} from "@chakra-ui/react";
-
-import { FaEnvelope, FaWhatsapp } from "react-icons/fa";
+import { Box, Heading, SlideFade, Image, LightMode, Button, ButtonGroup, HStack } from "@chakra-ui/react";
 import Paragraph from "../../Paragraph";
 
 const Profile = () => {
   return (
     <SlideFade in={true} offsetY={80}>
       <Box>
-        <Heading
-          as="h1"
-          fontSize={{ base: "28px", md: "40px", lg: "48px" }}
-          mb={3}
-        >
+        <Heading as="h1" fontSize={{ base: "28px", md: "40px", lg: "48px" }} mb={3}>
           I’m Bisar Omer
         </Heading>
         <Paragraph fontSize="2xl" lineHeight={1.6}>
-          Full Stack  Developer <br />
+          Full Stack Developer <br />
         </Paragraph>
         <Box mt={10}>
           <LightMode>
             <ButtonGroup>
-              <Button
-                colorScheme="green"
-                bg="green.500"
-                href="mailto:biisaromer@gmail.com"
-                borderRadius={5}
-                p={3}
-                as="a"
-                leftIcon={<FaEnvelope />}
-              >
-                Biisaromer@gmail.com
-              </Button>
-              <Button
-                colorScheme="green"
-                bg="green.500"
-                href=" https://wa.me/+9647511823161"
-                borderRadius={5}
-                p={3}
-                as="a"
-                leftIcon={<FaWhatsapp />}
-              >
-                WhatsApp
+              <Button colorScheme="green" href="https://drive.google.com/file/d/1o8xryeae8nbFIE1iM_6OVDHFLmAN8OgR/view?usp=sharing" borderRadius={5} p={3} as="a" target={"_blank"}>
+                My Resume
               </Button>
             </ButtonGroup>
           </LightMode>
