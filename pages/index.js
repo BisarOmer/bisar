@@ -24,7 +24,7 @@ export default function Home() {
           property="og:title"
           content="Bisar Omer | Full stack developer"
         />
-        <meta property="og:image" content="/meta.png" />
+        <meta property="og:image" content="https://bisar.vercel.app/meta.png" />
       </Head>
       <main>
         <Container maxW="container.lg" mt={["5", "10"]}>
