@@ -1,6 +1,6 @@
 My personal portfolio! built using Next.js
 
-Create a `.env.local` file similar:
+Create a `.env.local` file similar :
 
 - AIRETABLE_AUTH=AIRETABLE_AUTH
 - WEBSITE_BASE=AIRETABLE_BASE
