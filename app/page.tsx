@@ -76,7 +76,7 @@ export default function Home() {
               <ul className="list-disc pl-5 mt-1 space-y-1">
                 <li>Scaled telecom platform from 20K to 1M users, delivering performance-critical backend systems.</li>
                 <li>Deployed lawful interception systems for VoLTE networks, handling real-time data at telecom scale.</li>
-                <li>Built Hakki, a telecom-grade chat app to bypass VoLTE limitations, with SMS/call support.</li>
+                <li>Built a telecom-grade chat app to bypass VoLTE limitations, with SMS/call support.</li>
                 <li>Designed an SMS-based Self-Care System for balance recharge, plan changes, and account management.</li>
                 <li>Developed a secure digital wallet using Golang & MySQL with real-time transaction processing.</li>
                 <li>Led backend of in-house HRM and integrated gifting in CCBS, reducing vendor costs.</li>
@@ -196,8 +196,8 @@ export default function Home() {
               </a>
             </li>
             <li>
-              <a href="https://www.github.com/bisarahmed" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
-                GitHub: bisarahmed
+              <a href="https://www.github.com/bisaromer" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                GitHub: bisaromer
               </a>
             </li>
             <li>
